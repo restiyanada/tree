@@ -12,9 +12,9 @@ void printDFS(node_t * current);
 
 int main() {
   node_t * test_list = malloc(sizeof(node_t));
-  insert(test_list,5);
-  insert(test_list,8);
-  insert(test_list,4);
+  insert(test_list,7);
+  insert(test_list,9);
+  insert(test_list,6);
   insert(test_list,3);
   printDFS(test_list);}
 
