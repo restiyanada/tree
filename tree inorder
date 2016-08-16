@@ -55,10 +55,10 @@ void printDFS(node_t * current);
 
 int main() {
   node_t * test_list = malloc(sizeof(node_t));
-  insert(test_list,5);
-  insert(test_list,8);
-  insert(test_list,4);
   insert(test_list,3);
+  insert(test_list,1);
+  insert(test_list,4);
+  insert(test_list,7);
   printDFS(test_list);}
 
 void insert(node_t * tree,int val){
